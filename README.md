@@ -9,6 +9,7 @@ Built with Xamarin.Forms with support for:
 * iOS
 * Android
 * UWP
+* TEST
 
 Grabs current weather and 5 day forecast.
 
