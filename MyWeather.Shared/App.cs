@@ -11,7 +11,7 @@ namespace MyWeather
         {
             var tabs = new TabbedPage
             {
-                Title ="My Weather",
+                Title ="Weather Helper!",
                 BindingContext = new WeatherViewModel(),
                 Children =
                 {

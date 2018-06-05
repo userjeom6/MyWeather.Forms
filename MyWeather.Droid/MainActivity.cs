@@ -1,3 +1,6 @@
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 using Android.App;
 using Android.OS;
@@ -17,7 +20,8 @@ namespace MyWeather.Droid
 
 		protected override void OnCreate (Bundle bundle)
 		{
-			
+            AppCenter.Start("c5065832-ab34-4e0f-ba6d-8c1d526940db", typeof(Analytics), typeof(Crashes));
+
 		    ToolbarResource = Resource.Layout.Toolbar;
 		    TabLayoutResource = Resource.Layout.Tabbar;
 
