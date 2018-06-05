@@ -10,6 +10,8 @@ Built with Xamarin.Forms with support for:
 * Android
 * UWP
 * Test: user6 test
+* Test2: Circle CI test
+
 Grabs current weather and 5 day forecast.
 
 change!
