@@ -157,7 +157,7 @@ namespace MyWeather.ViewModels
                     var title = "Location Permission";
                     var question = "To get your current city the location permission is required. Please go into Settings and turn on Location for the app.";
                     var positive = "Settings";
-                    var negative = "Maybe Later";
+                    var negative = "Maybe Later?";
                     var task = Application.Current?.MainPage?.DisplayAlert(title, question, positive, negative);
                     if (task == null)
                         return false;
@@ -182,7 +182,7 @@ namespace MyWeather.ViewModels
                     var title = "Location Permission";
                     var question = "To get your current city the location permission is required.";
                     var positive = "Settings";
-                    var negative = "Maybe Later";
+                    var negative = "Maybe Later?";
                     var task = Application.Current?.MainPage?.DisplayAlert(title, question, positive, negative);
                     if (task == null)
                         return false;
