@@ -11,6 +11,7 @@ Built with Xamarin.Forms with support for:
 * UWP
 * TEST2
 * TEST3
+* triggering a new build in App Center
 
 Grabs current weather and 5 day forecast.
 
