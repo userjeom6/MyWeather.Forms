@@ -9,6 +9,9 @@ Built with Xamarin.Forms with support for:
 * iOS
 * Android
 * UWP
+* Test: user6 test
+* Test2: Circle CI test
+* Test3: Circle CI auto trigger
 
 Grabs current weather and 5 day forecast.
 
